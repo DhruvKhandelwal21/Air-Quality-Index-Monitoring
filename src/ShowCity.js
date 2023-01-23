@@ -101,6 +101,7 @@ const ShowCity = (props) => {
         return moment(time).format('h:mm:ss a');
     }
     
+    
     useEffect(() => {
       setShowDetails(false);
    }, [props])
